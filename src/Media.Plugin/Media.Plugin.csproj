@@ -1,4 +1,4 @@
-﻿<Project Sdk="MSBuild.Sdk.Extras/2.0.29">
+﻿<Project Sdk="MSBuild.Sdk.Extras/2.0.54">
 	<PropertyGroup>
 		<TargetFrameworks>netstandard1.0;netstandard2.0;MonoAndroid70;MonoAndroid71;MonoAndroid80;MonoAndroid81;MonoAndroid90;Xamarin.iOS10;uap10.0.16299;Tizen40</TargetFrameworks>
 		<AssemblyName>Plugin.Media</AssemblyName>
@@ -6,9 +6,9 @@
 		<Product>$(AssemblyName) ($(TargetFramework))</Product>
 		<AssemblyVersion>1.0.0.0</AssemblyVersion>
 		<AssemblyFileVersion>1.0.0.0</AssemblyFileVersion>
-		<Version>1.0.0.0</Version>
+		<Version>1.0.0.3</Version>
 		<Authors>James Montemagno</Authors>
-		<PackageId>Xam.Plugin.Media</PackageId>
+		<PackageId>Pkt.Xam.Plugin.Media</PackageId>
 		<PackOnBuild>true</PackOnBuild>
 		<PackageIconUrl>http://www.refractored.com/images/plugin_icon_media.png</PackageIconUrl>
 		<PackageLicenseUrl>https://github.com/jamesmontemagno/MediaPlugin/blob/master/LICENSE</PackageLicenseUrl>
@@ -22,13 +22,16 @@
 		</Description>
 		<Copyright>Copyright 2019</Copyright>
 		<RepositoryUrl>https://github.com/jamesmontemagno/MediaPlugin</RepositoryUrl>
-		<PackageReleaseNotes>See: https://github.com/jamesmontemagno/MediaPlugin </PackageReleaseNotes>
+		<PackageReleaseNotes>Source: https://github.com/pkt-dev/MediaPlugin
+Build instructions: https://pkstidev.atlassian.net/wiki/spaces/GPS/pages/493027332/Update+Forked+MediaPlugin+Library
+Forked from: https://github.com/jamesmontemagno/MediaPlugin</PackageReleaseNotes>
 
 		<NeutralLanguage>en</NeutralLanguage>
 		<LangVersion>default</LangVersion>
 		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
 		<DebugType>portable</DebugType>
 		<DefineConstants>$(DefineConstants);</DefineConstants>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
