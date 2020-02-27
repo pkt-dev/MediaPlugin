@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+	<metadata>
+		<id>Pkt.Xam.Plugin.Media</id>
+		<version>1.0.0.4</version>
+		<title>Media Plugin for Xamarin and Windows</title>
+		<authors>James Montemagno</authors>
+		<owners>James Montemagno</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<licenseUrl>https://github.com/jamesmontemagno/MediaPlugin/blob/master/LICENSE</licenseUrl>
+		<projectUrl>https://github.com/pkt-dev/MediaPlugin</projectUrl>
+		<iconUrl>http://www.refractored.com/images/plugin_icon_media.png</iconUrl>
+		<description>Take or pick photos and videos from a cross platform API.</description>
+		<releaseNotes>
+			Source: https://github.com/pkt-dev/MediaPlugin
+			Build instructions: https://pkstidev.atlassian.net/wiki/spaces/GPS/pages/493027332/Update+Forked+MediaPlugin+Library
+			Forked from: https://github.com/jamesmontemagno/MediaPlugin
+		</releaseNotes>
+		<copyright>Copyright 2019</copyright>
+		<tags>xamarin, pcl, xam.pcl, media, photo, video, plugin, plugin for xamarin, windows phone, winphone, wp8, winrt, android, xamarin.forms, ios</tags>
+		<repository type="git" url="https://github.com/pkt-dev/MediaPlugin" commit="a1110c3d344fc352759fbc5b6d3a5a12803d98b0" />
+		<dependencies>
+			<group targetFramework=".NETStandard1.0">
+				<dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+				<dependency id="Plugin.Permissions" version="5.0.0-beta" exclude="Build,Analyzers" />
+			</group>
+			<group targetFramework="MonoAndroid7.0">
+				<dependency id="Plugin.Permissions" version="5.0.0-beta" exclude="Build,Analyzers" />
+				<dependency id="Xamarin.Android.Support.Core.Utils" version="28.0.0.1" exclude="Build,Analyzers" />
+			</group>
+			<group targetFramework="MonoAndroid7.1">
+				<dependency id="Plugin.Permissions" version="5.0.0-beta" exclude="Build,Analyzers" />
+				<dependency id="Xamarin.Android.Support.Core.Utils" version="28.0.0.1" exclude="Build,Analyzers" />
+			</group>
+			<group targetFramework="MonoAndroid8.0">
+				<dependency id="Plugin.Permissions" version="5.0.0-beta" exclude="Build,Analyzers" />
+				<dependency id="Xamarin.Android.Support.Core.Utils" version="28.0.0.1" exclude="Build,Analyzers" />
+			</group>
+			<group targetFramework="MonoAndroid8.1">
+				<dependency id="Plugin.Permissions" version="5.0.0-beta" exclude="Build,Analyzers" />
+				<dependency id="Xamarin.Android.Support.Core.Utils" version="28.0.0.1" exclude="Build,Analyzers" />
+			</group>
+			<group targetFramework="MonoAndroid9.0">
+				<dependency id="Plugin.Permissions" version="5.0.0-beta" exclude="Build,Analyzers" />
+				<dependency id="Xamarin.Android.Support.Core.Utils" version="28.0.0.1" exclude="Build,Analyzers" />
+			</group>
+			<group targetFramework="Xamarin.iOS1.0">
+				<dependency id="Plugin.Permissions" version="5.0.0-beta" exclude="Build,Analyzers" />
+			</group>
+			<group targetFramework=".NETStandard2.0">
+				<dependency id="Plugin.Permissions" version="5.0.0-beta" exclude="Build,Analyzers" />
+			</group>
+			<group targetFramework="Tizen4.0">
+				<dependency id="Plugin.Permissions" version="5.0.0-beta" exclude="Build,Analyzers" />
+				<dependency id="Tizen.NET" version="4.0.0" exclude="Runtime,Build,Analyzers" />
+			</group>
+			<group targetFramework="UAP10.0.16299">
+				<dependency id="Plugin.Permissions" version="5.0.0-beta" exclude="Build,Analyzers" />
+			</group>
+		</dependencies>
+		<frameworkAssemblies>
+			<frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid7.0, MonoAndroid7.1, MonoAndroid8.0, MonoAndroid8.1, MonoAndroid9.0" />
+			<!--<frameworkAssembly assemblyName="System.Drawing.Common.dll" targetFramework="Xamarin.iOS1.0" />-->
+		</frameworkAssemblies>
+	</metadata>
+	<files>
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\netstandard1.0\Plugin.Media.pdb" target="lib\netstandard1.0\Plugin.Media.pdb" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\netstandard2.0\Plugin.Media.pdb" target="lib\netstandard2.0\Plugin.Media.pdb" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\monoandroid70\Plugin.Media.pdb" target="lib\monoandroid70\Plugin.Media.pdb" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\monoandroid71\Plugin.Media.pdb" target="lib\monoandroid71\Plugin.Media.pdb" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\monoandroid80\Plugin.Media.pdb" target="lib\monoandroid80\Plugin.Media.pdb" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\monoandroid81\Plugin.Media.pdb" target="lib\monoandroid81\Plugin.Media.pdb" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\monoandroid90\Plugin.Media.pdb" target="lib\monoandroid90\Plugin.Media.pdb" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\xamarin.ios10\Plugin.Media.pdb" target="lib\xamarinios10\Plugin.Media.pdb" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\uap10.0.16299\Plugin.Media.pdb" target="lib\uap10.0.16299\Plugin.Media.pdb" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\tizen40\Plugin.Media.pdb" target="lib\tizen40\Plugin.Media.pdb" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\netstandard1.0\Plugin.Media.dll" target="lib\netstandard1.0\Plugin.Media.dll" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\netstandard1.0\Plugin.Media.xml" target="lib\netstandard1.0\Plugin.Media.xml" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\netstandard2.0\Plugin.Media.dll" target="lib\netstandard2.0\Plugin.Media.dll" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\netstandard2.0\Plugin.Media.xml" target="lib\netstandard2.0\Plugin.Media.xml" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\monoandroid70\Plugin.Media.dll" target="lib\monoandroid70\Plugin.Media.dll" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\monoandroid70\Plugin.Media.xml" target="lib\monoandroid70\Plugin.Media.xml" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\monoandroid71\Plugin.Media.dll" target="lib\monoandroid71\Plugin.Media.dll" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\monoandroid71\Plugin.Media.xml" target="lib\monoandroid71\Plugin.Media.xml" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\monoandroid80\Plugin.Media.dll" target="lib\monoandroid80\Plugin.Media.dll" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\monoandroid80\Plugin.Media.xml" target="lib\monoandroid80\Plugin.Media.xml" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\monoandroid81\Plugin.Media.dll" target="lib\monoandroid81\Plugin.Media.dll" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\monoandroid81\Plugin.Media.xml" target="lib\monoandroid81\Plugin.Media.xml" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\monoandroid90\Plugin.Media.dll" target="lib\monoandroid90\Plugin.Media.dll" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\monoandroid90\Plugin.Media.xml" target="lib\monoandroid90\Plugin.Media.xml" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\xamarin.ios10\Plugin.Media.dll" target="lib\xamarinios10\Plugin.Media.dll" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\xamarin.ios10\Plugin.Media.xml" target="lib\xamarinios10\Plugin.Media.xml" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\uap10.0.16299\Plugin.Media.dll" target="lib\uap10.0.16299\Plugin.Media.dll" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\uap10.0.16299\Plugin.Media.xml" target="lib\uap10.0.16299\Plugin.Media.xml" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\uap10.0.16299\Plugin.Media.pri" target="lib\uap10.0.16299\Plugin.Media.pri" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\tizen40\Plugin.Media.dll" target="lib\tizen40\Plugin.Media.dll" />
+		<file src="C:\projects\MediaPlugin\src\Media.Plugin\bin\Release\tizen40\Plugin.Media.xml" target="lib\tizen40\Plugin.Media.xml" />
+		<!--<file src="C:\projects\MediaPlugin\nuget\readme.txt" target="readme.txt" />-->
+	</files>
+</package>
